@@ -1,5 +1,8 @@
 #!/usr/bin/perl 
 
+print "\nHello!\n\n";
+exit;
+
 open INFILE, $ARGV[0] or die $!;
 my $polariz = $ARGV[0];
 $polariz =~ s/ANTENNE//g;
